@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+#contenedor {
+    border: 1px solid rgb(149, 117, 186);;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+    background-color: #FFF;
+    padding: auto;
+    
+    /*height: 920px;*/
+}
+
+header {
+    border: 1px solid rgb(149, 117, 186);
+    width: 100%;
+    margin-bottom: 15px;
+    /* height: 150px;*/   /* para que el carrusel este encima del menú*/
+    background-color: rgb(149, 117, 186);
+    /*  overflow: hidden;*/ /*contenido se adapta al tamaño*/
+}
+
+    header h1 {
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+    }
+
+section#inicio {
+    /*border: 1px solid #903;*/
+    width: 550px;
+    float: left; /*ubicación a la izquierda*/
+    height: 650px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+aside#inicio {
+    /*border: 1px solid #903;*/
+    margin-right: 15px;
+    width: 300px;
+    float: right; /*ubicación a la derecha*/
+    height: 650px;
+    margin-bottom: 15px;
+}
+
+
+
+nav {
+    width: 111.5%;
+}
+
+    nav ul {
+        list-style: none;
+    }
+
+        nav ul li {
+            float: left;
+            width: 15%;
+            text-align: center;
+        }
+
+            nav ul li a {
+                display: block;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                font-weight: bold;
+                color: white;
+                background:rgb(149, 117, 186);
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    background-color: chocolate;
+                }
+
+header .logo {
+    float: left;
+    margin: 15px;
+    width: 50px;
+}
+
+    header .logo img {
+        width: 100%;
+    }
+
+section#inicio h1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+section p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+section#inicio img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+aside img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*Estilos Seccion Quienes Somos*/
+
+section#inicio h2 {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.figuraQS {
+    margin: 60px 20px 20px 20px;
+}
+
+/*Estilos Seccion Cursos*/
+
+article {
+    border: 1px solid #903;
+    width: 25%;
+    display: inline-block;
+    margin: 15px 30px;
+    padding: 5px;
+}
+
+    article h1 {
+        text-align: center;
+    }
+
+    article figure {
+        text-align: center;
+    }
+
+    article p {
+        text-align: justify;
+    }
+
+
+
+h1{
+    text-align: center;
+    z-index: 100;
+    width: 100%;
+    padding-bottom: auto;
+}
+
+.pie-pagina{
+    background-color: rgb(149, 117, 186);
+    padding: 20px auto;
+    border: 1px solid plum;
+    text-align: end;
+    width: 100%;
+    
+    
+}
+.icon{
+    padding: 10px 0px;
+    margin: 20px;
+}
+.flex{
+    display: flex;
+}
+.Name{
+    margin: auto;
+    text-align: end;
+    color: #e2d1c3;
+    font: 40px;
+    width: 100%;
+}
+.tam-img{
+    width: 32.33%;
+    margin: 1%;
+    box-shadow: 5px 5px rgba(109, 13, 173, 0.356)
+}
+.fonts-tipe{
+    font-family: 'Cormorant SC', serif;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.bg-parrafo{
+    background-color: rgb(175, 119, 201);
+    color: rgb(255, 255, 255);
+}
+
