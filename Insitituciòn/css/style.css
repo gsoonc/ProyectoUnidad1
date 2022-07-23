@@ -2,10 +2,11 @@
     margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    
 }
 
 #contenedor {
-    border: 1px solid rgb(149, 117, 186);;
+    border: 1px solid rgb(137, 231, 150);;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -16,14 +17,25 @@
     /*height: 920px;*/
 }
 
+.contenedor-ab{
+    border: 1px solid rgb(149, 117, 186);;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+    background-color: #FFF;
+    padding: auto;
+}
+
 header {
-    border: 1px solid rgb(149, 117, 186);
+    border: 1px solid rgb(92, 162, 60);
     width: 100%;
     margin-bottom: 15px;
     /* height: 150px;*/   /* para que el carrusel este encima del menú*/
-    background-color: rgb(149, 117, 186);
+    background-color: #5DA355;
     /*  overflow: hidden;*/ /*contenido se adapta al tamaño*/
 }
+
 
     header h1 {
         color: #FFF;
@@ -31,29 +43,16 @@ header {
         text-align: center;
     }
 
-section#inicio {
-    /*border: 1px solid #903;*/
-    width: 550px;
-    float: left; /*ubicación a la izquierda*/
-    height: 650px;
-    margin-left: 15px;
-    margin-bottom: 15px;
+.nav {
+        width: 100%;
+        justify-content: center;
+    }
+    
+.nav-ab{
+    width: 100%;  
+    justify-content: center;
 }
 
-aside#inicio {
-    /*border: 1px solid #903;*/
-    margin-right: 15px;
-    width: 300px;
-    float: right; /*ubicación a la derecha*/
-    height: 650px;
-    margin-bottom: 15px;
-}
-
-
-
-nav {
-    width: 111.5%;
-}
 
     nav ul {
         list-style: none;
@@ -71,7 +70,7 @@ nav {
                 padding-bottom: 8px;
                 font-weight: bold;
                 color: white;
-                background:rgb(149, 117, 186);
+                background:#2E8044;
                 text-decoration: none;
             }
 
@@ -146,28 +145,46 @@ article {
     article p {
         text-align: justify;
     }
+.cabeza-ab{
+    padding-bottom: 1%;
+   
+}
+
+.cabeza1{
+    position: relative;
+    right:  2.5%;
+}
 
 
-
-h1{
+.titulo-home{
     text-align: center;
     z-index: 100;
     width: 100%;
     padding-bottom: auto;
+    position: relative;
+}
+
+.titulo-ab{
+    text-align: center;
+    z-index: 100;
+    width: 100%;
+    
 }
 
 .pie-pagina{
-    background-color: rgb(149, 117, 186);
+    background-color: #5DA355;
     padding: 20px auto;
-    border: 1px solid plum;
+    border: 1px solid #5DA355;
     text-align: end;
-    width: 100%;
-    
-    
+    width: 100%;  
 }
+
+
 .icon{
-    padding: 10px 0px;
+    padding: 1px 0px;
     margin: 20px;
+    width: auto;
+ 
 }
 .flex{
     display: flex;
@@ -178,11 +195,15 @@ h1{
     color: #e2d1c3;
     font: 40px;
     width: 100%;
+    position: relative;
+    right: 5%;
 }
 .tam-img{
     width: 32.33%;
     margin: 1%;
-    box-shadow: 5px 5px rgba(109, 13, 173, 0.356)
+    box-shadow: 5px 5px white;
+    position: relative;
+    right: 2%;
 }
 .fonts-tipe{
     font-family: 'Cormorant SC', serif;
@@ -190,7 +211,16 @@ font-family: 'Edu VIC WA NT Beginner', cursive;
 font-family: 'Poppins', sans-serif;
 }
 .bg-parrafo{
-    background-color: rgb(175, 119, 201);
-    color: rgb(255, 255, 255);
+    background-color: #F2F7E9;
+    color: black;
 }
+
+.img-about{
+    width: 100%;
+    position: relative;
+    right: 2.6%;
+    
+}
+
+
 
